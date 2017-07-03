@@ -54,5 +54,5 @@ colnames(datar)[3:7] <- c("Ozono","Dióxido de Azufre",
                                  "Monóxido de Carbono",
                                  "PM10")
  
-+
+
        
