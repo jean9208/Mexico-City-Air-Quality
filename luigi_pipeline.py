@@ -2,7 +2,8 @@
 """
 Created on Mon Jul 03 00:23:22 2017
 
-@author: Jean
+@author: Jean Michel Arreola Trapala
+@contact : jean.arreola@yahoo.com.mx
 """
 
 import luigi

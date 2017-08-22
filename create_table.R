@@ -1,5 +1,9 @@
 ## Script to create the data quality table on a PostgreSQL instance ##
 
+# Author: Jean Michel Arreola Trapala
+# Date: 22/08/2017
+# Contact: jean.arreola@yahoo.com.mx
+
 
 # Load PostgreSQL client
 
