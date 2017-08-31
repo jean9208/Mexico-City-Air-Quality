@@ -14,7 +14,6 @@ library(RPostgreSQL)
 
 "
 CREATE TABLE IF NOT EXISTS air_quality (
-  ID integer,
   FECHA date,  
   HORA integer,
   NO_OZONO integer,
@@ -42,6 +41,7 @@ CREATE TABLE IF NOT EXISTS air_quality (
   SU_NITROGENO integer,
   SU_CARBONO integer,
   SU_PM10 integer,
+  ID serial,
   PRIMARY KEY (ID)
 )
 " -> query
@@ -70,5 +70,5 @@ dbGetQuery(con, query)
 
 dbDisconnect(con)
 
-dbUnloadDriver(drv)
+#dbUnloadDriver(drv)
 
